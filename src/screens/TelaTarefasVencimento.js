@@ -2,7 +2,7 @@ import { View, Text, FlatList, StyleSheet } from 'react-native'
 import React, { useContext } from 'react'
 import StudyCardsContext from '../contexts/StudyCardsContext'
 
-const TasksDueSoonScreen = () => {
+const TelaTarefasVencimento = () => {
 
     const { cards } = useContext(StudyCardsContext)
 
@@ -62,4 +62,4 @@ const styles = StyleSheet.create({
     }
 });
 
-export default TasksDueSoonScreen
+export default TelaTarefasVencimento

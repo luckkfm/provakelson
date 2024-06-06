@@ -5,7 +5,7 @@ import StudyCardsContext from '../contexts/StudyCardsContext'
 import DateTimePickerModal from 'react-native-modal-datetime-picker'
 
 
-const CardEditScreen = ({ route, navigation }) => {
+const TelaEditCard = ({ route, navigation }) => {
 
     const { id } = route.params || {}
     const { cards, addCard, updateCard } = useContext(StudyCardsContext)
@@ -128,4 +128,4 @@ const styles = StyleSheet.create({
   }
 });
 
-export default CardEditScreen
+export default TelaEditCard

@@ -2,7 +2,7 @@ import { View, Text, Button, FlatList, TouchableOpacity, StyleSheet } from 'reac
 import React, { useContext } from 'react'
 import StudyCardsContext from '../contexts/StudyCardsContext'
 
-const CardListScreen = ({ navigation }) => {
+const TelaListaCard = ({ navigation }) => {
 
     const { cards, deleteCard } = useContext(StudyCardsContext)
 
@@ -150,4 +150,4 @@ const styles = StyleSheet.create({
   }
 });
 
-export default CardListScreen
+export default TelaListaCard
